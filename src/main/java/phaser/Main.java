@@ -4,7 +4,10 @@ import java.util.concurrent.Phaser;
 
 public class Main {
 
-    // Phaser позволяет синхронизировать потоки, которые выполняются в несколько фаз.
+    /**
+     * Phaser позволяет синхронизировать потоки, которые выполняются в несколько фаз.
+     */
+
     public static void main(String[] args) {
         Phaser phaser = new Phaser(3); // 3 потока
 

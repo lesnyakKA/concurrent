@@ -1,10 +1,11 @@
 package reentrant_lock;
 
-import com.sun.xml.internal.bind.v2.TODO;
-
 public class Main {
 
-    // Для синхронизации потоков можно использовать класс ReentrantLock
+    /**
+     * Для синхронизации потоков можно использовать класс ReentrantLock
+     */
+
     public static void main(String[] args) throws InterruptedException {
         Counter counter = new Counter();
 

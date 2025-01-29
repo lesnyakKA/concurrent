@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 
 class MyCallable implements Callable<String> {
     @Override
-    public String call() throws Exception {
+    public String call() {
         return "Результат из потока " + Thread.currentThread().getName();
     }
 }

@@ -1,7 +1,11 @@
 package synchronize;
 
 public class Main {
-    //Для синхронизации потоков можно использовать ключевое слово synchronized
+
+    /**
+     * Для синхронизации потоков можно использовать ключевое слово synchronized
+     */
+
     public static void main(String[] args) throws InterruptedException {
         Counter counter = new Counter();
 

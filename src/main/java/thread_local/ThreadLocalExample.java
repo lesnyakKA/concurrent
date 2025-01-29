@@ -2,7 +2,10 @@ package thread_local;
 
 class ThreadLocalExample {
 
-    // ThreadLocal позволяет создавать переменные, уникальные для каждого потока.
+    /**
+     * ThreadLocal позволяет создавать переменные, уникальные для каждого потока
+     */
+
     private static final ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
     public static void main(String[] args) {

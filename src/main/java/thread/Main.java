@@ -2,7 +2,10 @@ package thread;
 
 public class Main {
 
-    // Самый базовый способ создания потока — наследование от класса Thread.
+    /**
+     * Самый базовый способ создания потока — наследование от класса Thread
+     */
+
     public static void main(String[] args) {
         MyThread thread1 = new MyThread();
         MyThread thread2 = new MyThread();
